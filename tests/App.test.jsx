@@ -12,3 +12,8 @@ test("clicking the button increments the count", async () => {
   await userEvent.click(button);
   expect(button).toHaveTextContent("count is 1");
 });
+
+// deliberately failing test
+test("true is false", () => {
+  expect(true).toBe(false);
+});
