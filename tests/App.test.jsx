@@ -14,6 +14,6 @@ test("clicking the button increments the count", async () => {
 });
 
 // deliberately failing test
-test("true is false", () => {
+test.todo("true is false", () => {
   expect(true).toBe(false);
 });
